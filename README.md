@@ -10,7 +10,6 @@ KhanhRomVN
 1. Clone the repository:
    ```
    git clone https://github.com/KhanhRomVN/number-detection-yolo.git
-   cd number-detection-yolo
    ```
 
 2. Create a virtual environment (optional but recommended):
@@ -27,9 +26,9 @@ KhanhRomVN
 ## Data Preparation
 
 The dataset should be in Pascal VOC XML format, organized into three directories:
-- `data/train/`: Training data
-- `data/valid/`: Validation data
-- `data/test/`: Test data
+- `data/raw/train/`: Training data
+- `data/raw/valid/`: Validation data
+- `data/raw/test/`: Test data
 
 Each directory should contain image files and corresponding XML annotation files.
 
